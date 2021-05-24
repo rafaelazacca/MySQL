@@ -15,7 +15,7 @@ primary key (id)
     insert into tb_pizza(sabor, preco, nome,  categoria_id) values ("Doce", 45.00,"Romeu e Julieta", 4);
     insert into tb_pizza(sabor, preco, nome,  categoria_id) values ("Doce", 46.00,"Churros", 4);
     insert into tb_pizza(sabor, preco, nome,  categoria_id) values ("Doce", 49.00,"Abacaxi com Chocolate Branco", 4);
-    insert into tb_pizza(sabor, preco, nome,  categoria_id) values ("Salgada", 32.00,"Carne de Jaca", 3);
+    insert into tb_pizza(sabor, preco, nome,  categoria_id) values ("Salgada", 32.00,"Mussarela", 3);
 
     create table tb_pizza (
     id bigint auto_increment,
