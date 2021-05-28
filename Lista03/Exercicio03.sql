@@ -54,10 +54,8 @@ select * from tb_produto where nome like "D%";
 
 -- Inner join entre tabela categoria e produto
 select departamento, tipo, receita, tb_produto.nome, tb_produto.marca, tb_produto.preco, tb_produto.estoque, tb_produto.codigo
-from tb_categoria
-inner join tb_produto on tb_categoria.id = tb_produto.categoriaID;
+from tb_categoria inner join tb_produto on tb_categoria.id = tb_produto.categoriaID;
 
 -- Produtos do departamento Cosméticos
 select departamento, tipo, receita, tb_produto.nome, tb_produto.marca, tb_produto.preco, tb_produto.estoque, tb_produto.codigo
-from tb_categoria
-inner join tb_produto on tb_categoria.id = tb_produto.categoriaID where tb_categoria.departamento = "Cosméticos"
+from tb_categoria inner join tb_produto on tb_categoria.id = tb_produto.categoriaID where tb_categoria.departamento = "Cosméticos"

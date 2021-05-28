@@ -13,9 +13,10 @@ insert into tb_categoria (ensino,ead,matricula) values ("Graduação",true,true)
 insert into tb_categoria (ensino,ead,matricula) values ("Mestrado",true,true);
 insert into tb_categoria (ensino,ead,matricula) values ("Doutorado",true,true);
 insert into tb_categoria (ensino,ead,matricula) values ("Pós-Doutorado",true,true);
+
 select * from tb_categoria;
-create table tb_curso
-(
+
+create table tb_curso(
 id bigint auto_increment,
 nome varchar (255) not null,
 valor decimal (65,2) not null,
